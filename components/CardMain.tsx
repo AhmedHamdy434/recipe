@@ -24,7 +24,7 @@ const CardMain = ({
         className="w-[70%] sm:w-[40%]"
       />
       <div className="text w-full text-center md:w-[50%] md:text-start ">
-        <p className="mb-3">{paragraph}</p>
+        <p className="mb-3 xl:text-xl xl:mb-6">{paragraph}</p>
         <Link href={link}>
           <button className="btn">{buttonWord}</button>
         </Link>
